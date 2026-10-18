@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380">
+  <defs>
+    <linearGradient id="heroDarkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f1f23" />
+      <stop offset="100%" stop-color="#141416" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D9BDCA" />
+      <stop offset="100%" stop-color="#b89aa8" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" rx="14" fill="url(#heroDarkGrad)" stroke="#2e2e34" stroke-width="1.5" />
+  <!-- Abstract coordinate grid -->
+  <g stroke="#2a2a30" stroke-width="1" stroke-dasharray="4,6">
+    <line x1="60" y1="0" x2="60" y2="380" />
+    <line x1="180" y1="0" x2="180" y2="380" />
+    <line x1="300" y1="0" x2="300" y2="380" />
+    <line x1="420" y1="0" x2="420" y2="380" />
+    <line x1="540" y1="0" x2="540" y2="380" />
+    <line x1="0" y1="76" x2="600" y2="76" />
+    <line x1="0" y1="152" x2="600" y2="152" />
+    <line x1="0" y1="228" x2="600" y2="228" />
+    <line x1="0" y1="304" x2="600" y2="304" />
+  </g>
+  <!-- Mathematical wave curves with accent #D9BDCA -->
+  <path d="M 60 280 Q 180 80 300 200 T 540 90" fill="none" stroke="url(#accentGrad)" stroke-width="3.5" />
+  <path d="M 60 240 Q 220 320 380 140 T 540 180" fill="none" stroke="#D9BDCA" stroke-width="1.5" stroke-dasharray="6,6" opacity="0.4" />
+  <!-- Data nodes -->
+  <circle cx="150" cy="148" r="7" fill="#D9BDCA" />
+  <circle cx="300" cy="200" r="7" fill="#D9BDCA" />
+  <circle cx="420" cy="120" r="7" fill="#D9BDCA" />
+  <circle cx="540" cy="90" r="8" fill="#D9BDCA" />
+  <text x="300" y="340" text-anchor="middle" fill="#D9BDCA" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" letter-spacing="2" opacity="0.9">ÁLGEBRA · OPTIMIZACIÓN · SOFTWARE</text>
+</svg>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portafolio de proyectos de Miguel Ricardo Calderón Serpa - Proyectos de software, matemáticas computacionales y desarrollo web.">
+  <title>Miguel Ricardo Calderón Serpa | Portafolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Cabecera principal y navegación del sitio -->
+  <header class="site-header">
+    <div class="header-container">
+      <button class="menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+      <nav class="site-nav" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="portafolio.html" class="active">Portafolio</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <section class="portfolio-section">
+      <div class="section-header">
+        <p class="section-tag">Proyectos</p>
+        <h1>Portafolio</h1>
+        <p class="section-description">
+          Muestra de investigaciones y aplicaciones prácticas que integran fundamentos teóricos con programación
+          eficiente
+        </p>
+      </div>
+
+      <div class="projects-container">
+
+        <!-- Proyecto 1 (Optimización Multiobjetivo) según mockup -->
+        <article class="project-card">
+          <figure class="project-media">
+            <img src="images/proyecto-optimizacion.png"
+              alt="Visualización del frente de Pareto del proyecto de optimización multiobjetivo con método Epsilon-Constraint"
+              width="806" height="548">
+          </figure>
+          <div class="project-info">
+            <h2>Proyecto Optimización Multiobjetivo para Portafolios</h2>
+            <p class="project-meta"><strong>Universidad Industrial de Santander</strong> &middot; Marzo de 2025 - Junio
+              de 2025</p>
+            <p class="project-summary">
+              Proyecto de investigación sobre optimización multiobjetivo, enfocado en el estudio de la optimalidad de
+              Pareto y su aplicación al modelo de Markowitz para la selección de portafolios financieros. Se
+              implementaron en Python los métodos Monte Carlo, &epsilon;-constraint y suma ponderada.
+            </p>
+            <ul class="project-tags">
+              <li>Optimización</li>
+              <li>Python</li>
+              <li>Investigación</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/mcalderonserpa/optimizacion-multiobjetivo-portafolios.git" target="_blank"
+                rel="noopener noreferrer" class="link-project">View project</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 2 (Hoja de Vida Web) -->
+        <article class="project-card">
+          <figure class="project-media">
+            <img src="images/banner-hero.svg" alt="Captura del diseño de la hoja de vida web responsiva" width="600"
+              height="360">
+          </figure>
+          <div class="project-info">
+            <h2>Hoja de Vida Web</h2>
+            <p class="project-meta"><strong>CampusLands Floridablanca</strong> &middot; 2026</p>
+            <p class="project-summary">
+              Sitio web personal desarrollado bajo estándares modernos de la web semántica, estrategia Mobile First, CSS
+              Grid y Flexbox. Cumple con los requerimientos de accesibilidad y validación W3C.
+            </p>
+            <ul class="project-tags">
+              <li>HTML5</li>
+              <li>CSS Grid</li>
+              <li>Responsive</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/mcalderonserpa" target="_blank" rel="noopener noreferrer"
+                class="link-project">View project</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página unificado -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <nav class="footer-nav" aria-label="Navegación secundaria">
+        <ul class="footer-nav-list">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="portafolio.html">Portafolio</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="footer-address">
+        <p><strong>Correos:</strong></p>
+        <p><a href="mailto:miguel2220967@correo.uis.edu.co">miguel2220967@correo.uis.edu.co</a></p>
+        <p><a href="mailto:mcalderonserpa@gmail.com">mcalderonserpa@gmail.com</a></p>
+      </div>
+      <div class="footer-social">
+        <a href="https://github.com/mcalderonserpa" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/m-calderon-serpa" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+      <div class="footer-copyright">
+        <p>Miguel Ricardo Calderon Serpa. Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script accesible para alternar el menú en móviles -->
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const siteNav = document.querySelector('.site-nav');
+    if (menuToggle && siteNav) {
+      menuToggle.addEventListener('click', () => {
+        const isOpened = siteNav.classList.toggle('is-active');
+        menuToggle.setAttribute('aria-expanded', isOpened);
+      });
+    }
+  </script>
+</body>
+
+</html>
