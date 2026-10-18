@@ -2,7 +2,7 @@
 
 Sitio personal con mi hoja de vida y mis proyectos.
 
-**Sitio publicado:** https://mcalderonserpa.github.io/HojaVida/
+**Sitio publicado:** [https://mcalderonserpa.github.io/HojaVida/](https://mcalderonserpa.github.io/CV-HTML_CSS-CampusLands/)
 
 ## Páginas
 - `index.html`: hoja de vida (perfil profesional, formación académica, habilidades técnicas y analíticas, y llamado a la acción).
