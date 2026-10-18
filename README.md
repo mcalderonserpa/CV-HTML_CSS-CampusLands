@@ -41,8 +41,10 @@ Sitio personal con mi hoja de vida y mis proyectos.
 ![Contacto en computador](mockups/contacto-computador.png)
 
 ## Capturas del sitio publicado
-![Celular](capturas/celular.png)
-![Computador](capturas/computador.png)
+![Celular](capturas/celular-1.png)
+![Celular](capturas/celular-2.png)
+![Computador](capturas/computador-1.png)
+![Computador](capturas/computador-2.png)
 
 ## Breakpoints
 - **Base (celular - menor a 600px):**
