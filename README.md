@@ -66,7 +66,4 @@ Sitio personal con mi hoja de vida y mis proyectos.
 
 ## Fuentes consultadas
 - [Documentación oficial de GitHub Pages](https://docs.github.com/es/pages)
-- [Guía de inicio de Git y GitHub](https://docs.github.com/es/get-started)
-- [MDN Web Docs - Maquetación y CSS Grid](https://developer.mozilla.org/es/docs/Learn/CSS/CSS_layout/Grids)
-- [MDN Web Docs - Principios de Responsive Web Design](https://developer.mozilla.org/es/docs/Learn/CSS/CSS_layout/Responsive_Design)
 - [Servicio de Validación de Marcado W3C](https://validator.w3.org/)
